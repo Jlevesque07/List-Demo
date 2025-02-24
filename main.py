@@ -14,3 +14,12 @@ for newletter in newlist:
     oglist.append(chr(ord(newletter) - shift))
 
 print(oglist)
+
+
+# separate
+
+fruits = ["banana", "apple", "pineapple"]
+newcodes = []
+
+for fruit in fruits:
+    newcodes.append(ord(fruit) + 5)
